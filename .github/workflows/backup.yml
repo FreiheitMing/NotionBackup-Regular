@@ -5,8 +5,8 @@ on:
     branches:
       - main
   schedule:
-    -   cron: "0 0 * * *"
-
+    - cron: '0 23 * * *'
+#在每天的国际标准时间23点（北京时间早上7点）触发该任务
 jobs:
   backup:
     runs-on: ubuntu-latest
