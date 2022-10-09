@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 22 * * SUN-SAT'
+    - cron: '0 22 * * 0'
 #在周日的国际标准时间21点（周一北京时间早上6点）触发该任务
 jobs:
   backup:
